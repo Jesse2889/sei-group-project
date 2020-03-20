@@ -6,6 +6,7 @@
   "scripts": {
     "start:back": "nodemon",
     "start:front": "webpack-dev-server --mode-development",
+    "build": "webpack -p",
     "seed": "node db/seeds.js",
     "start": "node index",
     "test": "mocha test/**/*_spec.js --require test/spec_helper --recursive --exit"
